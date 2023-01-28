@@ -20,7 +20,7 @@ export default function Home() {
           {
             gallery.length > 0 && (
               <ol className="grid grid-cols-1 sm:grid-cols-3 gap-8">
-                {gallery.map((media) => (<li><MediaItem media={media} /></li>))}
+                {gallery.map((media, i) => (<li key={`media-item-${i}`}><MediaItem media={media} /></li>))}
               </ol>  
             )
           }

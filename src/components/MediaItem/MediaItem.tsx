@@ -3,7 +3,7 @@ import MediaItemVideo from "./MediaItemVideo";
 
 const MediaItem = (
   { media }: { media: {
-    type: "image" | "video",
+    type: string,
     src: string,
   }}
 ) => {
