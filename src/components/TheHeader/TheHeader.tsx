@@ -7,7 +7,7 @@ const TheHeader = () => (
       alt="Mango the Cavoodle looking out from behind a triangular white shelf" 
       className="object-cover opacity-50"
       fill
-      src="/images/IMG20230103192427.jpg"
+      src="/images/hero.jpg"
     />
   </header>
 );
